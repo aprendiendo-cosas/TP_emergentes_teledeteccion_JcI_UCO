@@ -2,9 +2,9 @@
 
 
 > + **_Versión_**: 2022-2023
-> + **_Titulación_**: PACE
-> + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
-> + **_Duración_**:  1 hora y 15 minutos.
+> + **_Titulación_**: Programa Hipatia
+> + **_Autor_**: Curro Bonet-García (fjbonet@uco.es) y Salvador Arenas-Castro (sarenascastro78@gmail.com)
+> + **_Duración_**:  Por concretar
 
 
 
@@ -27,7 +27,7 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 
 
-![Rajoy](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/raw/main/imagenes/rajoy.jpg)
+![Rajoy](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/rajoy.jpg)
 
 
 
@@ -35,11 +35,11 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 + Hay muchos sistemas complejos a nuestro alrededor. Un puente es un buen ejemplo de un sistema complejo. Para que dure mucho tiempo y cumpla su función es necesario saber muchas cosas. Debemos de conocer las leyes físicas que gobiernan la distribución de masas, las tensiones, la resistencia de los materiales, etc. No es fácil mantener y conservar un puente.
 
-![puente](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/main/imagenes/puente_de_alcantara.jpg)
+![puente](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/main/imagenes/puente_de_alcantara.jpg)
 
 + Los ecosistemas son también sistemas complejos. Un bosque, por ejemplo, es una agrupación de seres vivos que hacen cosas de seres vivos: comen, se reproducen, compiten, cooperan, etc. ¿sabemos construir ecosistemas?, ¿y mantenerlos?
 
-![bosque](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/main/imagenes/bosque.jpg)
+![bosque](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/main/imagenes/bosque.jpg)
 
 + La diferencia fundamental entre un puente y un ecosistema (desde el punto de vista de los sistemas complejos) es que las propiedades del puente resultan de la agrupación de las propiedades de los elementos que lo conforman. Es decir, un bloque de hormigón pequeño tiene propiedades parecidas a las de un puente. Esto no pasa con los bosques (ni con los ecosistemas en general). Las propiedades de los ecosistemas van más allá de las propiedades de los elementos que lo constituyen. Es decir, el bosque es más que la suma de sus partes. Estas características que surgen cuando muchos seres vivos se asocian en un ecosistema, son las denominadas "propiedades emergentes" de un sistema complejo. Data nos lo explica muy bien en [este](https://www.youtube.com/watch?v=LSXffX8weME) vídeo con otro ejemplo.
 
@@ -70,7 +70,7 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 + Para entender esto tienes que evocar el conocimiento que ya tienes sobre el espectro electromagnético. La siguiente figura resume un poco las ideas principales.
 
-![espectro](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/raw/main/imagenes/espectro.png)
+![espectro](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/espectro.png)
 
 
 
@@ -79,14 +79,14 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 
 
-![solete](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/main/imagenes/sol.png)
+![solete](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/main/imagenes/sol.png)
 
 
 
 
 + Pues bien, resulta que hay satélites que son capaces de "ver" la fotosíntesis. Una planta que hace la fotosíntesis refleja poca radiación roja porque la utiliza para romper moléculas de agua y producir glucosa. Una planta muerta refleja menos radiación de infrarrojos que una viva. Así que, si tenemos en un satélite sensores que pueden ver la radiación roja e infrarroja que refleja la superficie, podemos cuantificar cuánta fotosíntesis está ocurriendo en un lugar determinado. Para cuantificar esto construimos índices de vegetación. El más utilizado se denomina NDVI (Normalized Difference Vegetation Index).
 
-![NDVI](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/main/imagenes/ndvi.png)
+![NDVI](https://raw.githubusercontent.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/main/imagenes/ndvi.png)
 
 
 + Todo este rollo sirve para que entendáis cómo las imágenes de satélite nos ayudan a visualizar una propiedad emergente de los ecosistemas: la producción primaria. Se define como la cantidad de biomasa que pueden generar los organismos autótrofos de un ecosistema en un momento dado. Cuando tomamos imágenes de satélite estamos viendo en realidad el resultado de la interacción de trillones de fotones con los cloroplastos de millones de plantas. 
@@ -95,15 +95,15 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
   1. Diferencia entre un bosque y un cultivo. Veremos desde arriba el patrón de producción primaria de dos zonas muy cercanas a esta clase. De hecho son dos zonas que visitaréis a continuación. La primera es un bosque y la segunda un cultivo. En la siguiente sesión conoceréis a alguno de los elementos que conforman el ecosistema. Desde nuestra visión holística, esos elementos son las piezas cuyas interacciones generan las propiedades emergentes que observamos desde el satélite.
 
-![parcelas](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/raw/main/imagenes/rabanales.png)
+![parcelas](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/rabanales.png)
 											*Ubicación de las dos parcelas. La del oeste es el bosque*
 
-![bosque](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/raw/main/imagenes/bosque_rabanales.png)
+![bosque](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/bosque_rabanales.png)
 														*Patrón de producción primaria del bosque*
 
 
 
-![pasto](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/raw/main/imagenes/pasto_cultivos_rabanales.png)
+![pasto](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/pasto_cultivos_rabanales.png)
 													*Patrón de producción primaria del pastizal-cultivo*
 
 
@@ -118,7 +118,7 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 
 
-En [este](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_PACE_UCO/raw/main/presentacion/prop_emergentes.pptx) enlace está disponible la presentación que usamos como guía de la presentación. 
+En [este](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/presentacion/prop_emergentes.pptx) enlace está disponible la presentación que usamos como guía de la presentación. 
 
 ## Conexión a los ordenadores de la UCO
 
