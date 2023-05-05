@@ -4,7 +4,7 @@
 > + **_Versión_**: 2022-2023
 > + **_Titulación_**: Programa Hipatia
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es) y Salvador Arenas-Castro (sarenascastro78@gmail.com)
-> + **_Duración_**:  Por concretar
+> + **_Duración_**:  1 hora de gabinete + 2 horas de campo + 3 horas de gabinete (= dos sesiones de tres horas cada una)
 
 
 
@@ -21,7 +21,7 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 
 
-## Hilo argumental: Desde Rajoy a cómo respira un bosque
+## Introducción: Desde Rajoy a cómo respira un bosque
 
 + Corría el año 2012 y el por aquel entonces presidente del gobierno, M. Rajoy, asistía a una reunión de alto nivel con varios líderes europeos. En un momento de la reunión, los micrófonos captaron cómo nuestro presi decía: "*it is very difficult todo esto*". Rajoy reaccionó ante un problema complejo como hacemos habitualmente: quejándonos de que la vida es compleja. 
 
@@ -43,8 +43,6 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 + La diferencia fundamental entre un puente y un ecosistema (desde el punto de vista de los sistemas complejos) es que las propiedades del puente resultan de la agrupación de las propiedades de los elementos que lo conforman. Es decir, un bloque de hormigón pequeño tiene propiedades parecidas a las de un puente. Esto no pasa con los bosques (ni con los ecosistemas en general). Las propiedades de los ecosistemas van más allá de las propiedades de los elementos que lo constituyen. Es decir, el bosque es más que la suma de sus partes. Estas características que surgen cuando muchos seres vivos se asocian en un ecosistema, son las denominadas "propiedades emergentes" de un sistema complejo. Data nos lo explica muy bien en [este](https://www.youtube.com/watch?v=LSXffX8weME) vídeo con otro ejemplo.
 
-<iframe width="560" height="415" src="https://www.youtube.com/embed/LSXffX8weME?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 + Veamos ahora este vídeo.
 
@@ -62,11 +60,6 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 + En este rato trataremos de responder (parcialmente) alguna de estas preguntas. Estudiaremos los ecosistemas desde arriba, viéndolos en su conjunto sin preocuparnos de cómo los fotones estimulan las moléculas de clorofila. Para ello usaremos una serie de técnicas englobadas en una disciplina llamada "teledetección". 
 
 + Como su nombre indica, la teledetección nos permite ver cosas desde lejos. Nuestros ojos son aparatos muy eficaces de teledetección. Pero en este caso usaremos satélites. 
-
-  + ¿Cuántos satélites diríais que hay orbitando alrededor de la Tierra?
-  + Muchos más.
-  + [Estos](https://www.youtube.com/watch?v=FDiIayhicFo), más o menos. 
-  + No son todos útiles para ver la Tierra. La mayoría son satélites de comunicaciones. Pero vaya, que hay muchísimos.
 
 + Para entender esto tienes que evocar el conocimiento que ya tienes sobre el espectro electromagnético. La siguiente figura resume un poco las ideas principales.
 
@@ -91,8 +84,14 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 + Todo este rollo sirve para que entendáis cómo las imágenes de satélite nos ayudan a visualizar una propiedad emergente de los ecosistemas: la producción primaria. Se define como la cantidad de biomasa que pueden generar los organismos autótrofos de un ecosistema en un momento dado. Cuando tomamos imágenes de satélite estamos viendo en realidad el resultado de la interacción de trillones de fotones con los cloroplastos de millones de plantas. 
 
-+ Vamos a analizar con cierto detalle cómo cambia la producción primaria en distintos ecosistemas de la Tierra. Para ello usaremos imágenes de un satélite llamado Landsat. Este satélite (bueno, en realidad son varios) fue lanzado en 1984 y sigue en órbita en la actualidad. Pasa por cada punto de la Tierra cada 16 días. Y toma una foto. Así que tenemos muchísimas imágenes de satélite de todo el planeta. Es posible "resumir" toda la información de esta larguísima serie temporal. Para ello podemos obtener imágenes que agregan la producción primaria de cada año, por ejemplo. Si representamos la producción primara de varios años en una gráfica, observamos cuestiones interesantes que nos ayudan a entender cómo funciona un ecosistema determinado. Veremos varios ejemplos usando una herramienta muy potente llamada "[Landsat timeseries explorer](https://jstnbraaten.users.earthengine.app/view/landsat-timeseries-explorer)"
 
+
+## Qué vamos a hacer
+
+Para entender bien qué es un sistema complejo y cómo podemos medir las propiedades emergentes de uno de estos sistemas, trabajaremos estableciendo un paralelismo (una especie de metáfora) entre los sistemas ecológicos y el cuerpo humano. Ambas entidades son sistemas complejos. Una propiedad emergente de ambos es el concepto de "salud". Para medir la salud de una persona usamos una serie de indicadores, como por ejemplo, la fiebre o el nivel de oxígeno en sangre. Estas medidas sencillas nos dan idea de cómo funciona el sistema en su conjunto. Si queremos conocer el estado de salud de un bosque también podemos usar indicadores útiles. En nuestro caso usaremos indicadores a partir de mediciones en campo y por satélite de una serie de variables relacionadas con la capacidad de un bosque de hacer la fotosíntesis. 
+
+
++ Vamos a analizar con cierto detalle cómo cambia la producción primaria en distintos ecosistemas de la Tierra. Para ello usaremos imágenes de un satélite llamado Landsat. Este satélite (bueno, en realidad son varios) fue lanzado en 1984 y sigue en órbita en la actualidad. Pasa por cada punto de la Tierra cada 16 días. Y toma una foto. Así que tenemos muchísimas imágenes de satélite de todo el planeta. Es posible "resumir" toda la información de esta larguísima serie temporal. Para ello podemos obtener imágenes que agregan la producción primaria de cada año, por ejemplo. Si representamos la producción primara de varios años en una gráfica, observamos cuestiones interesantes que nos ayudan a entender cómo funciona un ecosistema determinado. Veremos varios ejemplos usando una herramienta muy potente llamada "[Landsat timeseries explorer](https://jstnbraaten.users.earthengine.app/view/landsat-timeseries-explorer)"
   1. Diferencia entre un bosque y un cultivo. Veremos desde arriba el patrón de producción primaria de dos zonas muy cercanas a esta clase. De hecho son dos zonas que visitaréis a continuación. La primera es un bosque y la segunda un cultivo. En la siguiente sesión conoceréis a alguno de los elementos que conforman el ecosistema. Desde nuestra visión holística, esos elementos son las piezas cuyas interacciones generan las propiedades emergentes que observamos desde el satélite.
 
 ![parcelas](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/rabanales.png)
