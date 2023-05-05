@@ -84,86 +84,28 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 
 + Todo este rollo sirve para que entendáis cómo las imágenes de satélite nos ayudan a visualizar una propiedad emergente de los ecosistemas: la producción primaria. Se define como la cantidad de biomasa que pueden generar los organismos autótrofos de un ecosistema en un momento dado. Cuando tomamos imágenes de satélite estamos viendo en realidad el resultado de la interacción de trillones de fotones con los cloroplastos de millones de plantas. 
 
-
+En [este](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/presentacion/prop_emergentes.pptx) enlace está disponible la presentación que usamos como guía de la presentación. 
 
 ## Qué vamos a hacer
 
 Para entender bien qué es un sistema complejo y cómo podemos medir las propiedades emergentes de uno de estos sistemas, trabajaremos estableciendo un paralelismo (una especie de metáfora) entre los sistemas ecológicos y el cuerpo humano. Ambas entidades son sistemas complejos. Una propiedad emergente de ambos es el concepto de "salud". Para medir la salud de una persona usamos una serie de indicadores, como por ejemplo, la fiebre o el nivel de oxígeno en sangre. Estas medidas sencillas nos dan idea de cómo funciona el sistema en su conjunto. Si queremos conocer el estado de salud de un bosque también podemos usar indicadores útiles. En nuestro caso usaremos indicadores a partir de mediciones en campo y por satélite de una serie de variables relacionadas con la capacidad de un bosque de hacer la fotosíntesis. 
 
+Para hacer lo anterior daremos un paseo por los alrededores del campus (el día 8 de mayo). En él veremos in situ distintas especies y formaciones vegetales. Tomaremos datos de alguna de sus características y luego veremos cómo se comportan "mirándolas" con el satélite. De forma más concreta andaremos por el canal del Gualdalmellato y haremos dos paradas:
++ En la primera, que será más o menos por aquí haremos dos cosas:
+  + En primer lugar usaremos un espectrofotoradiómetro para medir in situ cómo se comporta la vegetación cuando sobre ella inciden distintas longitudes de onda. Veremos cómo cada especie de planta tiene un patrón específico de absorción de la luz. Esto es lo que denominamos "firma espectral".
+  + Además, anotaremos las coordenadas de este punto porque en la siguiente sesión (día 15 de mayo) veremos cuál es la actividad fotosintética de la vegetación que hemos visto en campo. Veremos cómo cambia la actividad fotosintética cada año. Procesaremos imágenes de satélite de muchos años y obtendremos para cada uno un valor concreto en el píxel en el que tomamos los datos de campo. Además, podemos ver si en ese punto concreto hay una tendencia hacia más o hacia menos actividad fotosintética. Esto sería un buen indicador del "estado de salud" del bosque. Para hacer todo esto usaremos una aplicación disponible en [esta](https://shre.ink/interanual) página web. 
 
-+ Vamos a analizar con cierto detalle cómo cambia la producción primaria en distintos ecosistemas de la Tierra. Para ello usaremos imágenes de un satélite llamado Landsat. Este satélite (bueno, en realidad son varios) fue lanzado en 1984 y sigue en órbita en la actualidad. Pasa por cada punto de la Tierra cada 16 días. Y toma una foto. Así que tenemos muchísimas imágenes de satélite de todo el planeta. Es posible "resumir" toda la información de esta larguísima serie temporal. Para ello podemos obtener imágenes que agregan la producción primaria de cada año, por ejemplo. Si representamos la producción primara de varios años en una gráfica, observamos cuestiones interesantes que nos ayudan a entender cómo funciona un ecosistema determinado. Veremos varios ejemplos usando una herramienta muy potente llamada "[Landsat timeseries explorer](https://jstnbraaten.users.earthengine.app/view/landsat-timeseries-explorer)"
-  1. Diferencia entre un bosque y un cultivo. Veremos desde arriba el patrón de producción primaria de dos zonas muy cercanas a esta clase. De hecho son dos zonas que visitaréis a continuación. La primera es un bosque y la segunda un cultivo. En la siguiente sesión conoceréis a alguno de los elementos que conforman el ecosistema. Desde nuestra visión holística, esos elementos son las piezas cuyas interacciones generan las propiedades emergentes que observamos desde el satélite.
++ En la segunda parada (aquí), veremos dos dehesas muy diferentes. En una de ellas hay una carga ganadera (intensidad del pastoreo) más alta que en la otra. Trataremos de ver si estas diferencias en los impactos humanos afectan a la "salud" de la dehesa. Pero en este caso, en lugar de observar la actividad fotosintética a escala interanual (de año a año), lo haremos dentro de un mismo año (escala intraanual). Esto nos permitirá conocer cómo cambia la actividad fotosintética a lo largo del año. Para hacer todo esto usaremos una aplicación disponible en [esta](https://shre.ink/intraanual) página web. 
 
-![parcelas](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/rabanales.png)
-											*Ubicación de las dos parcelas. La del oeste es el bosque*
-
-![bosque](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/bosque_rabanales.png)
-														*Patrón de producción primaria del bosque*
-
-
-
-![pasto](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/pasto_cultivos_rabanales.png)
-													*Patrón de producción primaria del pastizal-cultivo*
-
-
-  2. Evolución de la producción primaria en el bosque de Posadas. Busca "posadas, córdoba" en la web anterior. Identifica el bosque hay al norte del pueblo (Parque Periurbano La Sierrezuela) y haz click en cualquier punto del bosque. Verás cómo se genera una gráfica como las anteriores.
-     + ¿Cómo ha evolucionado la producción primaria en esta zona?
-     + ¿A qué crees que se debe este cambio?
-  3. Evolución de la producción primaria después de una perturbación. Busca "Sierra Bermeja, España" en la web anterior. Haz click en una zona sin bosque. Se generará una gráfica como las anteriores.
-     + ¿Qué crees que ha pasado en esta zona?
-     + ¿Recuerdas el nombre del proceso ecológico que ocurre después de una perturbación?
+La siguiente figura muestra resumidamente lo que veremos en este proyecto.
 
 
 
 
-
-En [este](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/presentacion/prop_emergentes.pptx) enlace está disponible la presentación que usamos como guía de la presentación. 
 
 ## Conexión a los ordenadores de la UCO
 
 Por motivos de seguridad es necesario usar una contraseña para acceder a los ordenadores. Usad las siguientes:
 
-
-
-```
-USUARIO     PASSWORD
--------    ----------
-BONET001 - Sii$kob634
-BONET002 - Net+hom245
-BONET003 - Nob*tof524
-BONET004 - Pio?nim529
-BONET005 - Dae:tem748
-BONET006 - Pio_ban429
-BONET007 - Den>noo524
-BONET008 - Hab!lut863
-BONET009 - Tut_min346
-BONET010 - Dap+gue389
-BONET011 - Nah$nep634
-BONET012 - Tuh>mot438
-BONET013 - Jip?kat548
-BONET014 - Tek_nin546
-BONET015 - Dan.mar824
-BONET016 - Jec*sil932
-BONET017 - Leh:nur467
-BONET018 - Tom>nob243
-BONET019 - Vic$pal897
-BONET020 - Nar+lee759
-BONET021 - Nil$pec543
-BONET022 - Cag-beb267
-BONET023 - Boa?lai895
-BONET024 - Nio_pig327
-BONET025 - Mij$tup542
-BONET026 - Nep$sap978
-BONET027 - Sao>naj528
-BONET028 - Gup:lib265
-BONET029 - Ceb:dup986
-BONET030 - Peu&diu732
-BONET031 - Sib:lep943
-BONET032 - Sui%toa249
-BONET033 - Reo*lem689
-BONET034 - Nes_gah245
-BONET035 - Cee-bih635
-```
-
-
+![pwds](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipatia_UCO/raw/main/imagenes/usuarios_pwds.png)
 
