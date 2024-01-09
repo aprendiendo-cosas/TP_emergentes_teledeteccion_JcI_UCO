@@ -8,6 +8,21 @@
 
 
 
+
+
+
+
++ día 21
+  + sesión en clase (biblioteca de ecología) sobre propiedades emergentes. planteamos nuestra hipótesis: los sitios más diversos son más "estables" y resistentes
+  + Salida al canal del Guadalmellato para buscar propiedades emergentes. Tomamos cooredenadas de puntso
++ día 11 de febrero. Aula de informática
+  + Introducción a la teledetección.
+  + VAmos viendo los puntos que estudiamos en diciembre
++ Día 15 de febrero. **NO HAY AULA**
+  + Ponemos datos en común y tratamos de analizarlos
++ Día 21 de marzo.
+  + por concretar
+
 ## Objetivos 
 
 En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en dos tipos. 
