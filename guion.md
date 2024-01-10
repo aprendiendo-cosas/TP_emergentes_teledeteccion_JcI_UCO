@@ -3,7 +3,7 @@
 
 > + **_Versión_**: 2022-2023
 > + **_Titulación_**: Programa Hipatia
-> + **_Autor_**: Curro Bonet-García (fjbonet@uco.es) y Salvador Arenas-Castro (sarenascastro78@gmail.com)
+> + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **_Duración_**:  1 hora de gabinete + 2 horas de campo + 3 horas de gabinete (= dos sesiones de tres horas cada una)
 
 
