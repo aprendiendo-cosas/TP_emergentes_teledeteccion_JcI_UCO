@@ -1,27 +1,12 @@
 # Guión del laboratorio denominado "Propiedades emergentes de los ecosistemas o el todo es más que la suma de sus partes"
 
 
-> + **_Versión_**: 2022-2023
-> + **_Titulación_**: Programa Hipatia
+> + **_Versión_**: 2023-2024
+> + **_Titulación_**: Programa "jóvenes con investigadores"
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
-> + **_Duración_**:  1 hora de gabinete + 2 horas de campo + 3 horas de gabinete (= dos sesiones de tres horas cada una)
+> + **_Duración_**:  3 horas de campo (11 de enero), 4 horas de gabinete (15 febrero) y 3 horas de trabajo en remoto (21 de marzo)
 
 
-
-
-
-
-
-+ día 21
-  + sesión en clase (biblioteca de ecología) sobre propiedades emergentes. planteamos nuestra hipótesis: los sitios más diversos son más "estables" y resistentes
-  + Salida al canal del Guadalmellato para buscar propiedades emergentes. Tomamos cooredenadas de puntso
-+ día 11 de febrero. Aula de informática
-  + Introducción a la teledetección.
-  + VAmos viendo los puntos que estudiamos en diciembre
-+ Día 15 de febrero. **NO HAY AULA**
-  + Ponemos datos en común y tratamos de analizarlos
-+ Día 21 de marzo.
-  + por concretar
 
 ## Objetivos 
 
@@ -30,6 +15,7 @@ En este "laboratorio" tratamos de abordar los siguientes objetivos, agrupados en
 + Disciplinares: Están relacionados con competencias propias de la ecología.
   + Entender (más o menos) la idea de "sistema complejo"
   + Empezar a entender el concepto de "propiedad emergente"
+  + Analizar cómo una propiedad emergente puede ser útil para evaluar el funcionamiento de un ecosistema.
 + Instrumentales: Están relacionados con la adquisición de competencias en el manejo de herramientas potencialmente útiles en ecología y en otros ámbitos.
   + Conocer la teledetección como disciplina.
   + Aprender cómo gracias a la teledetección podemos medir algunas propiedades emergentes de los sistemas complejos.
@@ -105,12 +91,28 @@ En [este](https://github.com/aprendiendo-cosas/TP_emergentes_teledeteccion_hipat
 
 Para entender bien qué es un sistema complejo y cómo podemos medir las propiedades emergentes de uno de estos sistemas, trabajaremos estableciendo un paralelismo (una especie de metáfora) entre los sistemas ecológicos y el cuerpo humano. Ambas entidades son sistemas complejos. Una propiedad emergente de ambos es el concepto de "salud". Para medir la salud de una persona usamos una serie de indicadores, como por ejemplo, la fiebre o el nivel de oxígeno en sangre. Estas medidas sencillas nos dan idea de cómo funciona el sistema en su conjunto. Si queremos conocer el estado de salud de un bosque también podemos usar indicadores útiles. En nuestro caso usaremos indicadores a partir de mediciones en campo y por satélite de una serie de variables relacionadas con la capacidad de un bosque de hacer la fotosíntesis. 
 
-Para hacer lo anterior daremos un paseo por los alrededores del campus (el día 8 de mayo). En él veremos in situ distintas especies y formaciones vegetales. Tomaremos datos de alguna de sus características y luego veremos cómo se comportan "mirándolas" con el satélite. De forma más concreta andaremos por el canal del Gualdalmellato y haremos dos paradas:
-+ En la primera, que será más o menos por [aquí](https://goo.gl/maps/NQNt5kGZXgteGmmJA), haremos dos cosas:
-  + En primer lugar usaremos un espectrofotoradiómetro para medir in situ cómo se comporta la vegetación cuando sobre ella inciden distintas longitudes de onda. Veremos cómo cada especie de planta tiene un patrón específico de absorción de la luz. Esto es lo que denominamos "firma espectral".
-  + Además, anotaremos las coordenadas de este punto porque en la siguiente sesión (día 15 de mayo) veremos cuál es la actividad fotosintética de la vegetación que hemos visto en campo. Veremos cómo cambia la actividad fotosintética cada año. Procesaremos imágenes de satélite de muchos años y obtendremos para cada uno un valor concreto en el píxel en el que tomamos los datos de campo. Además, podemos ver si en ese punto concreto hay una tendencia hacia más o hacia menos actividad fotosintética. Esto sería un buen indicador del "estado de salud" del bosque. Para hacer todo esto usaremos una aplicación disponible en [esta](https://shre.ink/interanual) página web. 
+Para hacer lo anterior daremos un paseo por los alrededores del campus (el día 11 de enero). En él veremos *in situ* distintas especies y formaciones vegetales. Tomaremos datos de alguna de sus características y luego veremos cómo se comportan "mirándolas" con el satélite. De forma más concreta andaremos por el canal del Gualdalmellato y haremos varias paradas. En cada una de ellas analizaremos la estructura y funcionamiento de varios tipos de ecosistemas: olivares, matorrales, cultivos de herbáceas, bosque de ribera, dehesa.
 
-+ En la segunda parada ([aquí](https://goo.gl/maps/wn1Jn1FGMqPKfE4J9)), veremos dos dehesas muy diferentes. En una de ellas hay una carga ganadera (intensidad del pastoreo) más alta que en la otra. Trataremos de ver si estas diferencias en los impactos humanos afectan a la "salud" de la dehesa. Pero en este caso, en lugar de observar la actividad fotosintética a escala interanual (de año a año), lo haremos dentro de un mismo año (escala intraanual). Esto nos permitirá conocer cómo cambia la actividad fotosintética a lo largo del año. Para hacer todo esto usaremos una aplicación disponible en [esta](https://shre.ink/intraanual) página web. 
+Una vez realizada la salida, estudiamos los siguientes tipos de sistemas:
+
+- Fotos, ubicación y breve descripción. estado de salud del sistema.
+
+
+
+Ahora hablamos de cómo vamos a intentar realcionar lo que vimos en campo con lo que nos diga el satélite. Trata de cuantificarlo de alguna forma. Algo así como una tabla:
+
+- Estado de salud inferido en campo.
+- tendencia de NDVI
+- heterogeneidad de la serie intraanual de NDVI
+- Valor de NDVI promedio 
+
+
+
+Luego intentamos hacer una regresión
+
+
+
+
 
 La siguiente figura muestra resumidamente lo que veremos en este proyecto.
 
